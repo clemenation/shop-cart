@@ -7,13 +7,6 @@
                         <?php endforeach; ?>
                     </ul>
                 </li>
-                <li><a href="#">Tin tức</a>
-                    <ul>
-                    <?php foreach($news as $item): ?>
-                        <li><a href="<?php echo Yii::app()->createUrl('/news/category/list/alias/' . $item->alias) ?>"><?php echo $item->name ?></a></li>
-                     <?php endforeach; ?>
-                     </ul>
-                </li>
                 <?php foreach($menus as $item): ?>
                     <li><a href="<?php echo Yii::app()->createUrl('/site/information/page/' . $item->alias) ?>"><?php echo $item->title ?></a></li>
                  <?php endforeach; ?>

@@ -1,8 +1,8 @@
-<style type="text/css">
+<!-- <style type="text/css">
 .wd-partners-other{width:100%;height:80px;	overflow:hidden;padding:0px;	}
 .wd-partners-other img{height:73px;margin:0px 3px;}
-</style>
-<div class="wd-partners wd-partners-other">
+</style> -->
+<!-- <div class="wd-partners wd-partners-other">
 	<a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img1.jpg" alt="Image" /></a>
 	<a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img2.jpg" alt="Image" /></a>
 	<a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img3.jpg" alt="Image" /></a>
@@ -11,7 +11,7 @@
     <a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img6.jpg" alt="Image" /></a>
     <a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img7.jpg" alt="Image" /></a>
     <a href="#"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/slider-images/img8.jpg" alt="Image" /></a>
-</div>
+</div> -->
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl ?>/js/jquery.imageScroller.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {

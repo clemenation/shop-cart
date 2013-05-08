@@ -27,9 +27,9 @@
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/scroller.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.fancybox-1.3.1.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/lightbox.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon-yui.js"></script> 
+<!-- <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon-yui.js"></script> 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/font.js"></script> 
-<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon.js"></script> 
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon.js"></script> -->
 <!--[if lte IE 6]>
 
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/DD_belatedPNG.js"></script>

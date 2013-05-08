@@ -6,7 +6,7 @@ $this->breadcrumbs=array(
 
 ?>
 <br/>
-<h2> Danh sách sản phẩm <?php echo $model->title; ?></h2>
+<h4 class="heading colr"> Danh sách sản phẩm <?php echo $model->title; ?></h4>
 <div class="listingbasic">
     <ul>
     <?php $this->widget('zii.widgets.CListView', array(

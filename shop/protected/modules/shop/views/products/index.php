@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 Shop::renderFlash();
 ?>
 <br />
-<h2><?php echo Shop::t('Danh sách sản phẩm'); ?></h2>
+<h4 class="heading colr"><?php echo Shop::t('Danh sách sản phẩm'); ?></h4>
 <br />
 <div class="wd-tab">
 	<ul class="wd-item">
