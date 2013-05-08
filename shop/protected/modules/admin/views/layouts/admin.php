@@ -54,7 +54,7 @@
 						
 			<div id="footer"> 
 				<small> <!-- Remove this notice or replace it with whatever you want --> 
-						&#169; Copyright 2011 TanLap.com | <?php echo Yii::powered(); ?> | <a href="#">Top</a> 
+						&#169; Copyright © 2013 Group 1 ICT54-2 | <?php echo Yii::powered(); ?> | <a href="#">Top</a> 
 				</small> 
 			</div><!-- End #footer --> 
 			
