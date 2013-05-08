@@ -49,6 +49,7 @@ $this->breadcrumbs=array(
     <div class="desc">
     	<div class="des_head">
         	<h4 class="left" style="color: red;"><?php echo Shop::priceFormat($model->price); ?></h4>
+            <h4 class="left" style="color: red;"><?php echo  $this->renderPartial('/products/addToCart', array('model' => $model),true); ?></h4>
         </div>
         <div class="clear"></div>
    	  <div class="quickreview">		 
