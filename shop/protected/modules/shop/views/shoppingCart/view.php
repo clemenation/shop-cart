@@ -90,11 +90,21 @@ if($products) {
 <?php
 
  if(Yii::app()->controller->id != 'order') {
+
+ 	    echo '<ul class="carthead">
+                	<li class="image">&nbsp;</li>
+                	<li class="desc bold">Sản phẩm </li>
+                    <li class="qty bold">Số lượng</li>
+                    <li class="price bold">Giá</li>
+                </ul>';
+
 echo '<div class="buttons">';
 echo CHtml::link(Shop::t('Mua thêm sản phẩm'), array(
 			'//shop/products'), array('class'=>'btn-previous'));
-
 echo '<br />';
+echo CHtml::link(Shop::t('Thanh toán'), array(
+			'//shop/order/create'), array('class'=>'btn-previous'));
+
 
 
 echo '</div>';
