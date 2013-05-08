@@ -70,7 +70,7 @@ return array(
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yiishop;',
+			'connectionString' => 'mysql:host=localhost;port=3306;dbname=yiishop;',
 			'emulatePrepare' => true,
 			'username' => 'admin',
 			'password' => '123456',
