@@ -1,7 +1,5 @@
 <div class="content-box-header">
 					
-	<h3 style="cursor: s-resize; ">Hình ảnh sản phẩm <?php echo '&nbsp;' . $product->title; 
-?></h3>
 	
 	<div class="clear"></div>
 	

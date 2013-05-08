@@ -47,10 +47,6 @@ $this->breadcrumbs=array(
         <a href="javascript:void(null)" class="nextsmall"><img src="<?php echo Yii::app()->request->baseUrl ?>/images/next.gif" alt="" /></a>
     </div>
     <div class="desc">
-    	<div class="des_head">
-        	<h4 class="left" style="color: red;"><?php echo Shop::priceFormat($model->price); ?></h4>
-            <h4 class="left" style="color: red;"><?php echo  $this->renderPartial('/products/addToCart', array('model' => $model),true); ?></h4>
-        </div>
         <div class="clear"></div>
    	  <div class="quickreview">		 
           <br />
