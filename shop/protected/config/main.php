@@ -38,7 +38,7 @@ return array(
 			'enableBizRuleData'=>true,
 		),
         'shop' => array( 
-            'currencySymbol' => 'VNĐ',
+            'currencySymbol' => 'USD',
         ),
         //'wdcalendar'    => array( 
 //                                'wd_options' => array(  
