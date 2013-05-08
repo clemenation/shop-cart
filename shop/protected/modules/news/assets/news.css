@@ -1,0 +1,51 @@
+/* 
+    Document   : news
+    Created on : Jun 27, 2011, 3:12:08 PM
+    Author     : huytbt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul.news-entries li{overflow:hidden;padding:8px 0;border-bottom:1px solid #e5e5e5}
+ul.news-entries li h4{margin-bottom:5px}
+ul.news-entries li a{font-weight:bold}
+ul.news-entries li a img.img-news{float:left;margin-right:10px;border:1px solid #e5e6e5;padding:1px;width:69px;height:64px;display:inline}
+ul.news-entries li p span{color:#adaeae;font-size:0.95em}
+a.view-detail{color:#990000;font-size:0.95em;float:right;padding:3px 0 3px 18px;background:url(arrow_white_green.png) no-repeat scroll 0 8px}
+a:hover.view-detail{color:#65b200}
+
+.detail-article{padding:11px 0}
+.detail-article h4.title{color:#000000;font-size:1.3em;font-weight:normal}
+.detail-article span.date{color:#A0A0A0;font-size:.95em}
+.detail-article p{margin:12px 0}
+.detail-article ul{padding-left:20px}
+.detail-article div.article-img {text-align:center;margin:20px}
+.detail-article div.article-img img{max-width:450px;max-height:310px}
+.detail-article div.article-img span{display:block;color:#484848;font-style:italic;font-weight:bold;line-height:19px;margin-top:6px;padding:0 70px}
+.detail-article .link-functions{overflow:hidden;background-color:#990000;margin:10px 0}
+.detail-article .link-functions a{float:right;padding:10px 17px 9px 41px;border-left:1px solid #fff;color:#fff;background:url(ico_email.png) 15px 14px no-repeat}
+.detail-article .link-functions a.print{background:url(ico_print.png) 15px 11px no-repeat}
+.detail-article .link-functions a.back{background:none}
+.detail-article .other-news h3{padding:10px 0;color:#424141;font-size:1.05em;font-weight:normal;text-transform:uppercase;margin-bottom:10px;border-bottom:1px dotted #ccc}
+.detail-article .other-news ul{padding:0 8px}
+.detail-article .other-news ul li{padding:3px 11px;background:url(arrow_three_black.png) 0 10px no-repeat}
+#send-friend{padding:8px 20px;overflow:hidden;width:600px}
+
+.news-paging {margin:10px auto;padding:4px 0;text-align:center;color:#990000}
+.news-paging span {text-align:center;overflow:hidden}
+.news-paging a {color:#990000;border:1px solid #e6e6e6;background-color:#fff}
+.news-paging a:hover{background-color:#990000;color:#fff}
+.news-paging a.prev:hover{background-color:#990000;color:#fff;border:1px solid #e6e6e6}
+.news-paging a.next:hover{background-color:#990000;color:#fff;border:1px solid #e6e6e6}
+.news-paging a{padding:3px 7px}
+.news-paging .current,.news-paging span strong{background-color:#990000;color:#fff;border:1px solid #e6e6e6;padding:3px 7px}
+.news-paging .prev{background-color:#f9f9f9;padding-left:12px;color:#990000}
+.news-paging .next{background-color:#f9f9f9;padding-right:12px;color:#990000}
+.news-paging div.disable{display:inline}
+.news-paging div.disable span.next{background-color:#f9f9f9;padding:3px 12px 3px 5px;color:#cccccc;border:1px solid #e6e6e6}
+.news-paging div.disable span.prev{background-color:#f9f9f9;padding:3px 5px 3px 12px;color:#cccccc;border:1px solid #e6e6e6}

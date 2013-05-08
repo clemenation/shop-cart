@@ -1,0 +1,6 @@
+.simply-scroll-container { position: relative; }
+.simply-scroll-clip { overflow: hidden; position: relative; z-index: 2; }
+.simply-scroll-list { left: 0; overflow: hidden; position: absolute; top: 0; z-index: 1; }
+.simply-scroll-list li img { display: block; }
+.simply-scroll, .simply-scroll .simply-scroll-clip { height: 75px; width: 1038px; }
+.simply-scroll .simply-scroll-list li { float: left; height: 75px; width: 150px; }

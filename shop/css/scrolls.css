@@ -1,0 +1,6 @@
+.partners { width: 100%; overflow: hidden; padding: 0px; }
+
+.partners ul, .partners ul li, .partners ul li img { float: left; }
+.partners ul li { padding: 0 3px; }
+.partners ul li img { border: #f0f0f0 solid 1px; height: 73px; width: 148px; }
+.partners ul li img:hover { border-color: #900; }
