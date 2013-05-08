@@ -4,7 +4,7 @@ $folder = Shop::module()->productImagesFolder;
 if($model->filename) 
 	$path = Yii::app()->baseUrl. '/' . $folder . '/' . $model->filename;
 	else
-	$path = Shop::register('no-pic.jpg');
+	$path = Shop::register('no-pic.png');
 
 echo CHtml::image($path,
 		$model->title,

@@ -25,11 +25,11 @@ Shop::renderFlash();
                     	  	if($data->images){
                     	   		$this->renderPartial('/image/view', array('thumb' =>true, 'model' => $data->images[0]));
                     		}else {
-                    			echo CHtml::image(Shop::register('no-pic.jpg'));
+                    			echo CHtml::image(Shop::register('no-pic.png'));
                     		}?>
                         </a>
                         <p style="padding: 0;" class="bold colr"><?php echo Shop::priceFormat($data->price); ?></p>
-                        <div style="text-align: center; margin-left: 40px;">
+                        <div style="text-align: center;">
                          <a href="<?php echo $this->createUrl('products/view', array('id' => $data->product_id)) ?>" class="buttonthree"><span>Xem</span></a>  
                         </div>
                         </li>
@@ -50,11 +50,11 @@ Shop::renderFlash();
                     	  	if($data->images){
                     	   		$this->renderPartial('/image/view', array('thumb' =>true, 'model' => $data->images[0]));
                     		}else {
-                    			echo CHtml::image(Shop::register('no-pic.jpg'));
+                    			echo CHtml::image(Shop::register('no-pic.png'));
                     		}?>
                         </a>
                         <p style="padding: 0;" class="bold colr"><?php echo Shop::priceFormat($data->price); ?></p>
-                        <div style="text-align: center; margin-left: 40px;">
+                        <div style="text-align: center;">
                          <a href="<?php echo $this->createUrl('products/view', array('id' => $data->product_id)) ?>" class="buttonthree"><span>Xem</span></a>  
                         </div>
                         </li>
@@ -75,11 +75,11 @@ Shop::renderFlash();
                     	  	if($data->images){
                     	   		$this->renderPartial('/image/view', array('thumb' =>true, 'model' => $data->images[0]));
                     		}else {
-                    			echo CHtml::image(Shop::register('no-pic.jpg'));
+                    			echo CHtml::image(Shop::register('no-pic.png'));
                     		}?>
                         </a>
                         <p style="padding: 0;" class="bold colr"><?php echo Shop::priceFormat($data->price); ?></p>
-                        <div style="text-align: center; margin-left: 40px;">
+                        <div style="text-align: center;">
                          <a href="<?php echo $this->createUrl('products/view', array('id' => $data->product_id)) ?>" class="buttonthree"><span>Xem</span></a>  
                         </div>
                         </li>
@@ -95,10 +95,10 @@ Shop::renderFlash();
     
 <style type="text/css">
 .wd-tab .wd-item li{background-color:#f2f2f2;float:left;font-weight:bolder;margin-right:2px;padding:.5em 1em; list-style: none; }
-.wd-tab .wd-item li.wd-current{background-color:#900;}
+.wd-tab .wd-item li.wd-current{background-color:#888;}
 .wd-tab .wd-item li.wd-current a{color:#fff !important;}
 .wd-tab .wd-item li a:link, .wd-tab .wd-item li a:visited{color:#000;}
-.wd-tab .wd-item li a:hover{color:#c00;}
+.wd-tab .wd-item li a:hover{color:#888;}
 .wd-tab .wd-panel{ padding: 35px 0 0 0px; }
  </style>
  <script type="text/javascript">

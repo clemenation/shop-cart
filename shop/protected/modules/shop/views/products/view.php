@@ -48,8 +48,8 @@ $this->breadcrumbs=array(
     </div>
     <div class="desc">
     	<div class="des_head">
-        	<h4 class="left" style="color: red;"><?php echo Shop::priceFormat($model->price); ?></h4>
-            <h4 class="left" style="color: red;"><?php echo  $this->renderPartial('/products/addToCart', array('model' => $model),true); ?></h4>
+        	<h4 class="left" style="font-weight:bold; font-size:30px;"><?php echo Shop::priceFormat($model->price); ?></h4>
+            <div><?php echo  $this->renderPartial('/products/addToCart', array('model' => $model),true); ?></div>
         </div>
         <div class="clear"></div>
    	  <div class="quickreview">		 
@@ -123,7 +123,7 @@ $this->breadcrumbs=array(
             	  	if($data->images){
             	   		$this->renderPartial('/image/view', array('thumb' =>true, 'model' => $data->images[0]));
             		}else {
-            			echo CHtml::image(Shop::register('no-pic.jpg'));
+            			echo CHtml::image(Shop::register('no-pic.png'));
             		}?>
                 </a>
                 <p style="padding: 0;" class="bold colr"><?php echo Shop::priceFormat($data->price); ?></p>

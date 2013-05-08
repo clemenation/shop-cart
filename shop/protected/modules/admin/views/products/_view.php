@@ -10,7 +10,7 @@
 		  	if($data->images){
 		   		$this->renderPartial('/image/view', array('thumb' =>true, 'model' => $data->images[0]));
 			}else {
-				echo CHtml::image(Shop::register('no-pic.jpg'));
+				echo CHtml::image(Shop::register('no-pic.png'));
 			}?>
 	</div>
     

@@ -5,7 +5,7 @@
   	if($data->images){
    		$this->renderPartial('_image', array('thumb' =>true, 'model' => $data->images[0]));
 	}else {
-		echo CHtml::image(Shop::register('no-pic.jpg'));
+		echo CHtml::image(Shop::register('no-pic.png'));
 	}?>
 </a>
 <p style="padding: 0;" class="bold colr"><?php echo Shop::priceFormat($data->price); ?></p>
