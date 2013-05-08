@@ -52,12 +52,12 @@
         <div class="topnav">        	
             <ul class="links">            	
                 <?php if(Yii::app()->user->isGuest): ?>
-                <li><a href="<?php echo Yii::app()->getModule('user')->registrationUrl[0];  ?>">Đăng kí</a></li>
-                <li class="last"><a href="<?php echo Yii::app()->getModule('user')->loginUrl[0] ?>">Đăng nhập</a></li>                
+                <li><a href="<?php echo Yii::app()->getBaseUrl() . Yii::app()->getModule('user')->registrationUrl[0];  ?>">Đăng kí</a></li>
+                <li class="last"><a href="<?php echo Yii::app()->getBaseUrl() . Yii::app()->getModule('user')->loginUrl[0] ?>">Đăng nhập</a></li>                
                 <?php else: ?>
                 <p style="float: left;">
-                Chào <a href="#" class="white under"><?php echo Yii::app()->user->name ?></a> !</p>
-                <li class="last"><a href="<?php echo Yii::app()->getModule('user')->logoutUrl[0] ?>">Thoát</a></li>
+                Chào <a href="<?php echo Yii::app()->getBaseUrl() ?>/user/profile" class="white under"><?php echo Yii::app()->user->name ?></a> !</p>
+                <li class="last"><a href="<?php echo Yii::app()->getBaseUrl() . Yii::app()->getModule('user')->logoutUrl[0] ?>">Thoát</a></li>
                 <?php endif; ?>
             </ul>
             <div class="clear"></div>
