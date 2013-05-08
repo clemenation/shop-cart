@@ -52,7 +52,7 @@ $this->breadcrumbs=array(
             <div><?php echo  $this->renderPartial('/products/addToCart', array('model' => $model),true); ?></div>
         </div>
         <div class="clear"></div>
-   	  <div class="quickreview">		 
+      <div class="quickreview">      
           <br />
           <?php 
             $specs = $model->getSpecifications();
@@ -88,8 +88,6 @@ $this->breadcrumbs=array(
             if($specs) {
             	echo '<table width="100%">';
             	
-            	printf ('<tr><th colspan="2"><strong>%s</strong></th></tr>',
-            			Shop::t('Mô tả sản phẩm'));
             			
             	foreach($specs as $key => $spec) {
             		if($spec != '')
@@ -104,8 +102,6 @@ $this->breadcrumbs=array(
                     }
             			                    
             	}
-                if($counter <= 3)
-                     echo '<tr> <td> Chưa có mô tả sản phẩm </td> </td>';
             	echo '</table>';
             } 
             ?>   
