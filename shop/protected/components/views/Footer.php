@@ -20,8 +20,6 @@
 </script>
 <div class="clear"></div>
 <div style="text-align: center;margin: 0 100px;">            
-<p>Copyright &copy; 2011 C&ocirc;ng ty TNHH TM &amp; DV Tấn Lập <strong></strong></p>
-<p><strong>C&Ocirc;NG TY TR&Aacute;CH NHIỆM HỮU HẠN THƯƠNG MẠI V&Agrave; DỊCH VỤ TẤN LẬP</strong></p>
-<p><strong>Trụ sở ch&iacute;nh &nbsp;: 98 An Dương Vương &ndash; TP Huế </strong> - Email : <a href="mailto:tanlapltd@vnn.vn">tanlapltd@vnn.vn</a>, <a href="mailto:tanlapltd@yahoo.com">tanlapltd@yahoo.com</a></p>    
-<p><strong>Chi nh&aacute;nh&nbsp; : 90 Nguyễn Huệ - TP Huế &nbsp; Tel : (84) 054. 3815961 &ndash; 3827125 * Fax : (84) 054.3815961</strong></p>  
+<p>Copyright &copy; 2013 Group 1 ICT54-2<strong></strong></p>
+<p><strong>HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY</strong></p>
 </div>
